@@ -5,6 +5,7 @@ class CreatePostPage extends React.Component{
 
 
   render() {
+    debugger;
     return(
       <NewPostForm/>
     )
