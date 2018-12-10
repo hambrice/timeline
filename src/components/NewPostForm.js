@@ -1,7 +1,7 @@
 import React from 'react'
 
 const NewPostForm = (props) =>
-<form>
+<form onSubmit={props.handleSubmit}>
   <div>
     <label>Select Client</label>
     <input type="text" name="client-name"/>

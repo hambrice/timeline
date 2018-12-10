@@ -3,11 +3,14 @@ import NewPostForm from '../components/NewPostForm';
 
 class CreatePostPage extends React.Component{
 
+  handleFormSubmit = event => {
+    event.preventDefault();
+    debugger;
+  }
 
   render() {
-    debugger;
     return(
-      <NewPostForm/>
+      <NewPostForm handleSubmit={this.handleFormSubmit}/>
     )
   }
 }
