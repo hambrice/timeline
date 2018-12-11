@@ -1,14 +1,15 @@
 import React from 'react'
 
 const NewPostForm = (props) =>
+
 <form onSubmit={props.handleSubmit}>
   <div>
-    <label>Select Client</label>
+    <label>Client Name</label>
     <input type="text" name="client-name"/>
   </div>
   <div>
-    <label>Select Image</label>
-    <input type="file" name="image" accept="image/*,video/*"/>
+    <label>Image URL</label>
+    <input type="text" name="image"/>
   </div>
   <div>
     <label>Post Body</label>
